@@ -8,6 +8,7 @@
 
 ## Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/172425156?v=4" width=115>](https://github.com/leticiaalmnunes)
+[<img src="https://avatars.githubusercontent.com/u/172425353?v=4" width=115>](https://github.com/Rafaela-Luz)
 [<img src="https://avatars.githubusercontent.com/u/172425104?v=4" width=115>](https://github.com/ThomasHannemann)
 
 * Letícia Almeida Nunes, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais
