@@ -1,6 +1,6 @@
 ![Logos Ilum, CNPEM, MEC, MCTI e Governo Federal](https://github.com/user-attachments/assets/063a52e7-6fc5-47c8-b220-d91f73956f38)
 
-<h1 align='center'> Predição do tempo de síntese de Materiais Organo-metálicos - Projeto Final de Aprendizado de Máquina </h1>
+<h1 align='center'> Predição do tempo de síntese de materiais Organometálicos - Projeto Final de Aprendizado de Máquina </h1>
 
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -25,25 +25,44 @@
 * [Informações técnicas](#informações-técnicas)
 * [Contribuições](#contribuições)
 * [Agradecimentos](#agradecimentos)
-* [Referências](#referências)
 
 ## Descrição do projeto
 **Projeto final em grupo da discilplina Aprendizado de Máquina do 2º semestre da turma 2024 do bacharelado em Ciência e Tecnologia da Ilum Escola de Ciência (CNPEM).**
 
-Sob a orientação do Professor Daniel Cassar, os *Arautos do Crepúsculo* (Grupo 6) [...]
+A partir do conhecimento adquirido ao longo da disciplina ministrada pelo Professor Daniel Cassar, os *Arautos do Crepúsculo* (Grupo 6) desenvolveram um modelo de aprendizado supervisionado que visa, a partir de algumas características da síntese de um MOF, predizer o seu tempo.
 
 ### Motivação e objetivo principal
-Dentro do laboratório, [...]. É importante saber o tempo de síntese uai :(
+A duração da síntese é uma variável interessante para predizer, pois, sabendo o tempo que o material leva para ser sintetizado ou o controlando a partir da alteração das demais variáveis (e.g. temperatura e aditivos) é possível administrar melhor os recursos e as demais atividades que devem ser realizadas no laboratório.
 
 ## Como reproduzir o trabalho
-PASSO A PASSO
-Seguir as instruições presentes no Caderno Jupyter.
+Os *notebooks Jupyter* e demais arquivos presentes no repositório contêm todas as intruções e os dados necessários para que o trabalho seja reproduzido. Seguindo os cadernos na ordem que estão numerados, o leitor não terá qualquer dificuldade de acompanhar o processo.
+
+Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os cadernos, os arquivos neles gerados também estão todos aqui no repositório.
 
 ### Arquivos
-- **Dados treino:** Conjunto de dados usados para os treinos do modelo.
-- **Dados teste:** Conjunto de dados usados para os testes do modelo.
-- **Caderno Jupyter - Versão completa:** Relatório Científico com a descrição de todo o processo executado. *Leitura recomendada caso o leitor tenha interesse em entender como as normalizações dos dados, seleções de atributos e escolha de modelo foram realizadas.*
-- **Caderno Jupyter - Versão reduzida:** Versão reduzida do relatório contendo apenas o modelo final.
+- **RAC_treino:** Conjunto de dados original obtido na plataforma [Kaggle](https://www.kaggle.com/datasets/marquis03/metal-organic-frame-materials-prediction/data).
+
+- **RAC_split_treino:** Conjunto de dados usados para os treinos do modelo.
+- **RAC_split_teste:** Conjunto de dados usados para os testes do modelo. <br><br>
+
+- **RAC_treino_VIF:** Dados de treino com os atributos selecionados por VIF para o modelo Regressor k-NN.
+- **RAC_teste_VIF:** Dados de teste com os atributos selecionados por VIF para o modelo Regressor k-NN.
+
+- **RAC_treino_arvore:** Dados de treino com os atributos selecionados por RFE para o modelo Árvore de decisão.
+- **RAC_teste_arvore:** Dados de teste com os atributos selecionados por RFE para o modelo Árvore de decisão.
+
+- **RAC_treino_floresta:** Dados de treino com os atributos selecionados por RFE para o modelo Floresta aleatória.
+- **RAC_teste_floresta:** Dados de teste com os atributos selecionados por RFE para o modelo Floresta aleatória. <br><br>
+
+- **Caderno 0 - Relatório:** Relatório contendo a descrição de todo o processo executado nos cadernos seguintes.
+- **Caderno 1 - Split de dados:** Separação dos dados em treino e teste.
+- **Caderno 2 - Seleção de atributos:** Seleção dos atributos para cada modelo por VIF e RFE.
+- **Caderno 3.0 - Baseline:** Modelo baseline para avaliação dos demais.
+- **Caderno 3.1 - Regressor k-NN:** Modelo Regressor k-NN.
+- **Caderno 3.2 - Árvore de decisão:** Modelo Árvore de decisão.
+- **Caderno 3.3 - Floresta aleatória:** Modelo Floresta aleatória.
+- **Caderno 4 - Comparação dos modelos:** Comparando as métricas de performance dos modelos treinados.
+- **Caderno 5 - Modelo final:** Caderno contendo apenas o modelo selecionado para ser utilizado.
 
 ## Informações técnicas
 * Linguagem de programação
@@ -51,20 +70,17 @@ Seguir as instruições presentes no Caderno Jupyter.
 * Software
   - Jupyter Notebook
 * Bibliotecas
+  - Pandas
   - Scikit-Learn
   - Optuna
-  - [...]
 
 ## Contribuições
-HANNEMANN, Thomas: Pré-tratamento dos dados e seleção de atributos e READ-ME.
+HANNEMANN, Thomas: Split dos dados, Regressor k-NN e Floresta Aleatória.
 <br><br>
-LUZ, Rafaela: Pré-tratamento dos dados e seleção de atributos, aplicação dos modelos de aprendizado e avaliação das métricas.
+LUZ, Rafaela: Seleção de atributos, relatório e organização dos arquivos.
 <br><br>
-NUNES, Letícia: Aplicação dos modelos de aprendizado, avaliação das métricas e READ-ME.
+NUNES, Letícia: Árvore de decisão, relatório, README e revisão final.
 <br><br>
 
 ## Agradecimentos
-TEXTO
-
-## Referências
-REFS
+Agrademos ao professor Daniel Cassar por nos instruir com tamanho bom humor e pela paciência para tirar nossas dúvidas constantes. Agradecemos também à professora Valéria Spolon pelos esclarecimentos acerca da síntese dos materais organo-metálicos e aos veteranos que nos ensinaram a usar o HPC.
