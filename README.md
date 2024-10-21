@@ -78,7 +78,7 @@ HANNEMANN, Thomas: Split dos dados, Regressor k-NN e Floresta Aleatória.
 <br><br>
 LUZ, Rafaela: Seleção de atributos, relatório e organização dos arquivos.
 <br><br>
-NUNES, Letícia: Árvore de decisão, relatório, README e revisão final.
+NUNES, Letícia: Árvore de decisão, relatório, README.
 <br><br>
 
 ## Agradecimentos
