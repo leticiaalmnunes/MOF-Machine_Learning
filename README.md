@@ -75,12 +75,12 @@ Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os c
   - Optuna
 
 ## Contribuições
-HANNEMANN, Thomas: Split dos dados, Regressor k-NN e Floresta Aleatória.
+HANNEMANN, Thomas: Split dos dados, Regressor k-NN, Floresta Aleatória e Modelo final.
 <br><br>
-LUZ, Rafaela: Seleção de atributos, relatório e organização dos arquivos.
+LUZ, Rafaela: Seleção de atributos, relatório, organização dos arquivos e gráfico final.
 <br><br>
-NUNES, Letícia: Árvore de decisão, relatório, README.
+NUNES, Letícia: Árvore de decisão, relatório, README, Comparação dos modelos e Baseline.
 <br><br>
 
 ## Agradecimentos
-Agrademos ao professor Daniel Cassar por nos instruir com tamanho bom humor e pela paciência para tirar nossas dúvidas constantes. Agradecemos também à professora Valéria Spolon pelos esclarecimentos acerca da síntese dos materais organo-metálicos e aos veteranos que nos ensinaram a usar o HPC.
+Agrademos ao professor Daniel Cassar por nos instruir com tamanho bom humor e pela paciência para tirar nossas dúvidas constantes. Agradecemos também à professora Valéria Marangoni pelos esclarecimentos acerca da síntese dos materais organo-metálicos e aos veteranos que nos ensinaram a usar o HPC.
