@@ -54,7 +54,7 @@ Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os c
 - **RAC_teste_floresta:** Dados de teste com os atributos selecionados por RFE para o modelo Floresta aleatória. <br><br>
 
 - **Caderno 0 - Relatório:** Relatório contendo a descrição de todo o processo executado nos cadernos seguintes.
-- **Caderno 1 - Split de dados:** Separação dos dados em treino e teste.
+- **Caderno 1 - Split de Dados:** Separação dos dados em treino e teste.
 - **Caderno 2 - Seleção de atributos:** Seleção dos atributos para cada modelo por VIF e RFE.
 - **Caderno 3.0 - Baseline:** Modelo baseline para avaliação dos demais.
 - **Caderno 3.1 - Regressor k-NN:** Modelo Regressor k-NN.
@@ -62,6 +62,7 @@ Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os c
 - **Caderno 3.3 - Floresta aleatória:** Modelo Floresta aleatória.
 - **Caderno 4 - Comparação dos modelos:** Comparando as métricas de performance dos modelos treinados.
 - **Caderno 5 - Modelo final:** Caderno contendo apenas o modelo selecionado para ser utilizado.
+- **RMSE_x_Modelo.png**: Gráfico com a métrica de performance por modelo.
 
 ## Informações técnicas
 * Linguagem de programação
