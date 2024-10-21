@@ -2,10 +2,6 @@
 
 <h1 align='center'> Predição do tempo de síntese de materiais Organometálicos - Projeto Final de Aprendizado de Máquina </h1>
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
 ## Desenvolvedores
 [<img src="https://avatars.githubusercontent.com/u/172425156?v=4" width=115>](https://github.com/leticiaalmnunes)
 [<img src="https://avatars.githubusercontent.com/u/172425353?v=4" width=115>](https://github.com/Rafaela-Luz)
@@ -42,8 +38,8 @@ Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os c
 ### Arquivos
 - **RAC_treino:** Conjunto de dados original obtido na plataforma [Kaggle](https://www.kaggle.com/datasets/marquis03/metal-organic-frame-materials-prediction/data).
 
-- **RAC_split_treino:** Conjunto de dados usados para os treinos do modelo.
-- **RAC_split_teste:** Conjunto de dados usados para os testes do modelo. <br><br>
+- **RAC_treino_split:** Conjunto de dados usados para os treinos do modelo.
+- **RAC_teste_split:** Conjunto de dados usados para os testes do modelo. <br><br>
 
 - **RAC_treino_VIF:** Dados de treino com os atributos selecionados por VIF para o modelo Regressor k-NN.
 - **RAC_teste_VIF:** Dados de teste com os atributos selecionados por VIF para o modelo Regressor k-NN.
