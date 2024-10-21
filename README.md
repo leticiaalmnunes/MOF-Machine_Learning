@@ -41,6 +41,9 @@ Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os c
 - **RAC_treino_split:** Conjunto de dados usados para os treinos do modelo.
 - **RAC_teste_split:** Conjunto de dados usados para os testes do modelo. <br><br>
 
+- **RAC_treino_var:** Dados de treino com os atributos pré-selecionados por limiar da variância.
+- **RAC_teste_var:** Dados de teste com os atributos pré-selecionados por limiar da variância.
+
 - **RAC_treino_VIF:** Dados de treino com os atributos selecionados por VIF para o modelo Regressor k-NN.
 - **RAC_teste_VIF:** Dados de teste com os atributos selecionados por VIF para o modelo Regressor k-NN.
 
