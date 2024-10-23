@@ -31,9 +31,10 @@ A partir do conhecimento adquirido ao longo da disciplina ministrada pelo Profes
 A duração da síntese é uma variável interessante para predizer, pois, sabendo o tempo que o material leva para ser sintetizado ou o controlando a partir da alteração das demais variáveis (e.g. temperatura e aditivos) é possível administrar melhor os recursos e as demais atividades que devem ser realizadas no laboratório.
 
 ## Como reproduzir o trabalho
-Os *notebooks Jupyter* e demais arquivos presentes no repositório contêm todas as intruções e os dados necessários para que o trabalho seja reproduzido. Seguindo os cadernos na ordem que estão numerados, o leitor não terá qualquer dificuldade de acompanhar o processo.
+Os *notebooks Jupyter* e demais arquivos presentes no repositório contêm todas as intruções e os dados necessários para que o trabalho seja reproduzido. Seguindo os cadernos na ordem que estão numerados, o leitor não terá qualquer dificuldade de acompanhar o processo. 
 
 Outrossim, caso não possua armazenamento, tempo ou um HPC para rodar todos os cadernos, os arquivos neles gerados também estão todos aqui no repositório.
+**ATENÇÃO**: As otimizações feitas com a biblioteca `optuna` são diferentes para cada vez que o código for rodado, devido à natureza de funcionamento do programa. Para obter melhores resultados, um grande número de repetições é recomendado, por isso, ajuste para o maior valor razoável considerando seu custo computacional.
 
 ### Arquivos
 - **RAC_treino:** Conjunto de dados original obtido na plataforma [Kaggle](https://www.kaggle.com/datasets/marquis03/metal-organic-frame-materials-prediction/data).
